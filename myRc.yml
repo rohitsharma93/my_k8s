@@ -6,14 +6,16 @@ spec:
   replicas: 5
   selector: 
     app: myjavaapp
+    version: 2.6.2
   template:
     metadata:
       name: myjavaapp
       labels:
         app: myjavaapp
+        version: 2.6.2
     spec:
       containers:
         - name: first-container
-          image: rohitsharma93/myjavaimage1122:1
+          image: rohitsharma93/myjavaimage1122:2
           ports:
             - containerPort: 8080
