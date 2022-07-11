@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: first-container
-          image: rohitsharma93/myjavaimagemay0922
+          image: rohitsharma93/myjavaimage1122:1
           ports:
             - containerPort: 8080
