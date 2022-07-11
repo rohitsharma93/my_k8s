@@ -10,10 +10,10 @@ spec:
     metadata:
       name: myapp
       labels:
-        app: myapp
+        app: mynginx
     spec:
       containers:
-        - name: myapp
+        - name: first-container
           image: nginx
           ports:
             - containerPort: 80
